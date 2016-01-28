@@ -1,0 +1,1 @@
+ls data/ -l | sort | awk 'NR % 2==1'
